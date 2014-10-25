@@ -1,0 +1,4 @@
+AuthUserFile /home/linshan/public_html/phone_store/admin/.htpasswd
+AuthType Basic
+AuthName "Phone Store Admin"
+Require valid-user

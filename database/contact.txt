@@ -1,0 +1,15 @@
+drop table contact;
+
+create table contact(
+CONTACTID number(3),
+NAME varchar2(32),
+EMIAL varchar2(50),
+PHONE varchar2(15),
+COMPANY varchar2(15),
+CONTACT varchar2(500)
+);
+INSERT INTO contact VALUES(1,'linshan','zls115@126.com','0414321206','deakin','no question');
+INSERT INTO contact VALUES(2,'linshan','zls115@126.com','0414321206','deakin','no question');
+
+commit;
+

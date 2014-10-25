@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href = "phones.xsl" type = "text/xsl" version = "1.0"?>
+<!-- Description: Assignment 2 -->
+<!-- COMPANY: LE VIET THANH PHONG -->
+<!-- Modified Date: 20 Sept 2011 -->
+<!-- Date: 30 Sept 2011 -->
+<!-- Validated: OK 30 Aug 2011 -->
+<CATALOG name="Phone List">
+<PHONE >
+	<TITLE id ="0">Iphone 5s</TITLE>
+	<COMPANY>Apple</COMPANY>
+	<PRICE>$560</PRICE>
+	<YEAR>2013</YEAR>	
+	<DESCRIPTION>
+    iPhone 5s is precision crafted down to the micron. And it’s evident throughout. The beautiful aluminum housing. The sleekness of metal and glass. Sapphire crystal in the Home button. And more sapphire crystal protecting the iSight camera. Design and construction of this level is unmatched. As a result, iPhone 5s looks and feels unbelievably thin and light. And it’s available in three elegant expressions: gold, silver, and space gray.</DESCRIPTION>
+	<SHORTDESCRIPTION>iPhone 5s is precision crafted down to the micron...</SHORTDESCRIPTION>
+	<IMAGE>images/iphone5s.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=1</URL>
+</PHONE>
+<PHONE >
+	<TITLE id="1">Iphone 5c</TITLE>
+	<COMPANY>Apple</COMPANY>
+	<PRICE>$460.00</PRICE>
+	<YEAR>2013</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/iphone5c.jpg</IMAGE>
+	<URL>details.php?action=show&amp;id=2</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="2">Galaxy Note 3</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$999.00</PRICE>
+	<YEAR>2013</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>The Samsung Galaxy Note 3 is the first device ever to feature 3GB of RAM. With it, Samsung makes the jump to 1080p full HD displays on phablets and it adopts a new textured back. The Note 3 features a larger than before 5.7" 1080p Super AMOLED display, but it retains a more compact profile. There is a 13-megapixel camera with improved flash, and of course an all new S Pen with improved functionality.The Note 3's 5.7-inch display boasts a full 1,920x1,080-pixel resolution, which is all I would settle for on a top-end device such as this. It's the same resolution as the Galaxy S4, which, given the Note 3's larger size, means the S4 has the sharper display as its pixels are more closely packed. The Note 3 has a pixel density of 386 pixels per inch, undercutting slightly the S4's 440ppi.
+
+That's a tiny difference, and not one you'd ever notice. Even if you pressed your nose against the screen, I'd be amazed if you could tell. It's a very sharp display, and even tiny text has superb clarity. High-definition images look great and Full HD video is displayed beautifully.</DESCRIPTION>
+	<SHORTDESCRIPTION>The Samsung Galaxy Note 3 is the first device ever...</SHORTDESCRIPTION>
+	<IMAGE>images/note3.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=3</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="3">Galaxy Note 2</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$509.50</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>alaxy Note 2 GT-N7100 gets its first ever Android 4.3 stock firmware via N7100XXUEMI6 test firmware, which was reportedly leaked on tinhte.vn and then posted on XDA forums by rayblo.
+
+According to SamMobile, the new test firmware for Galaxy Note 2 brings a few notable enhancements to core UI elements similar to Galaxy S4 and Note 3's interface, including the tabbed settings.
+
+In related news, a similar test firmware has also been leaked for Galaxy S4 GT-I9505 by an unidentified Samsung insider. As the leaked firmware is still under development, it may harbour a few untested bugs or broken features.
+
+Samsung is unlikely to release the latest Android 4.3 update for Note 2 anytime soon, as it is still under development. Those who cannot wait for its official release can proceed with our step-by-step guide to install the same manually.</DESCRIPTION>
+	<SHORTDESCRIPTION>alaxy Note 2 GT-N7100 gets its first ever Android 4.3 stock...</SHORTDESCRIPTION>
+	<IMAGE>images/note2.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=4</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="4">iphone 4s Cover</TITLE>
+	<COMPANY>Apple</COMPANY>
+	
+	<PRICE>$35</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/4s-cover1.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=5</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="5">iphone 4s Protector</TITLE>
+	<COMPANY>Apple</COMPANY>
+	
+	<PRICE>$1.2</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/4s-protector1.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=6</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="6">iphone 5 	Case</TITLE>
+	<COMPANY>Apple</COMPANY>
+	
+	<PRICE>$45.00</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/iphone5-case1.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=7</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="7">iphone 5s Cover</TITLE>
+	<COMPANY>Apple</COMPANY>
+	
+	<PRICE>$20.00</PRICE>
+	<YEAR>2013</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/iphone5s-cover2.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=8</URL>
+</PHONE>
+
+<PHONE>
+	<TITLE id="8">Galaxy Note 2 cable</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$50.00</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/note2-cable.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=9</URL>
+</PHONE>
+<PHONE >
+	<TITLE id="9">Galaxy Note 2 Cover</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$63.00</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/note2-cover.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=10</URL>
+</PHONE>
+<PHONE>
+	<TITLE id="10">Galaxy S4 Cover</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$35.30</PRICE>
+	<YEAR>2013</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>Every feature we add to iPhone must answer yes to one question: Will it make the experience better? So the colors of iPhone 5c received the same intense consideration we apply to everything we make. We even designed the Home screen and wallpaper colors to complement the exterior. As a result, using iPhone is that much more engaging and delightful. 
+	With an all-new design, this is iPhone as you’ve never seen it — or held it. iPhone 5c is beautifully, unapologetically plastic, the better to bring its five decidedly uncommon colors to life. Beneath the smooth surface of the seamless outer shell, a steel-reinforced frame provides structural integrity. So iPhone 5c feels reassuringly solid in your hand.</DESCRIPTION>
+	<SHORTDESCRIPTION>Every feature we add to iPhone must answer yes to one question:...</SHORTDESCRIPTION>
+	<IMAGE>images/s4-cover.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=11</URL>
+</PHONE>
+
+<PHONE>
+	<TITLE id="11">Galaxy S4 Protector</TITLE>
+	<COMPANY>Sumsung</COMPANY>
+	
+	<PRICE>$1.30</PRICE>
+	<YEAR>2012</YEAR>
+	<COLOR></COLOR>
+	<DESCRIPTION>The most comprehensive study guides available for the Cisco certification exams. Each Study Guide features:
+- Full coverage of all Cisco exam topics
+- Hands-on labs for learning vital skills
+- 200 practice questions for assessing your knowledge and understanding of the material
+- Test-preparation software on the CD, plus a bonus exam not in the PHONE
+- Valuable networking tools and utilities on the CD
+- Electronic flashcards for PCs and Palm devices
+- Searchable electronic version of the entire PHONE</DESCRIPTION>
+	<SHORTDESCRIPTION>The most comprehensive study guides available for the...</SHORTDESCRIPTION>
+
+	<IMAGE>images/s4-protector.gif</IMAGE>
+	<URL>details.php?action=show&amp;id=12</URL>
+</PHONE>
+</CATALOG>

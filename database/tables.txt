@@ -1,0 +1,120 @@
+drop table orderSummary;
+drop table orders;
+drop table phones;
+drop table category2;
+drop table users;
+
+
+
+create table users(
+FIRSTNAME varchar2(20),
+LASTNAME varchar2(20),
+USERNAME varchar2(15) default '' NOT NULL,
+PASSWORD varchar2(32) default '' NOT NULL,
+EMAIL varchar2(50) default '' NOT NULL,
+PHONE varchar2(15),
+COMPANY varchar2(25),
+ADDRESS varchar2(50),
+POSTCODE number(5),
+CITY varchar2(15),
+STATE varchar2(28),
+Primary key (USERNAME)
+);
+
+INSERT INTO users VALUES ('axl', 'p', 'axl', '39c869cf2ba63b2c17e901df0f6ba1b4', 'axl@mail.com', '123456789', 'phonestore', '100 T street',1234,'Melb','Queensland');
+commit;
+
+create table category2(
+CATEGORYID number(3) NOT NULL,
+CATEGORYNAME varchar2(25),
+Primary key (CATEGORYID)
+);
+
+INSERT INTO category2 VALUES (1, 'Phones');
+INSERT INTO category2 VALUES (2, 'Cases, Covers & Skins');
+INSERT INTO category2 VALUES (3, 'Screen Protectors');
+INSERT INTO category2 VALUES (4, 'Chargers & Cradles');
+INSERT INTO category2 VALUES (5, 'Cables & Adapters');
+
+commit;
+
+create table phones(
+PHONEID number(3) NOT NULL,
+TITLE varchar2(60),
+COMPANY varchar2(50),
+YEAR number(4),
+PRICE number(6,2),
+IMAGE varchar2(30),
+QUANTITY number(5),
+CATEGORYID number(2),
+Primary key (PHONEID),
+Foreign key (CATEGORYID) references category2
+);
+
+
+INSERT INTO phones VALUES (1,'IPhone 5s','Apple',2013,560,'iphone5s.gif',150,1);
+INSERT INTO phones VALUES (2,'IPhone 5c', 'Apple', 2013,460.00,'iphone5c.gif',60,1);
+INSERT INTO phones VALUES (3,'Galaxy Note 3', 'Sumsung', 2013, 999.00, 'note3.gif',50,1);
+INSERT INTO phones VALUES (4,'Galaxy Note 2', 'Sumsung', 2012, 509.50, 'note2.gif',60,1);
+INSERT INTO phones VALUES (5,'iphone 4s Cover', 'Apple', 2012, 35, '4s-cover1.gif',70,2);
+INSERT INTO phones VALUES (6,'iphone 4s Protector', 'Apple', 2012, 1.20, '4s-protector1.gif',80,3);
+INSERT INTO phones VALUES (7,'iphone 5 	Case', 'Apple', 2012, 45, 'iphone5-case1.gif',30,2);
+INSERT INTO phones VALUES (8,'iphone 5s Cover','Apple',  2013, 20.00, 'iphone5s-cover2.gif',20,2);
+INSERT INTO phones VALUES (9,'Galaxy Note 2 cable', 'Sumsung', 2012, 50.00, 'note2-cable.gif',50,5);
+INSERT INTO phones VALUES (10,'Galaxy Note 2 Cover', 'Sumsung', 2012,63.00,'note2-cover.gif',30,2);
+INSERT INTO phones VALUES (11,'Galaxy S4 Cover', 'Sumsung',  2013, 35.30, 's4-cover.gif',60,2);
+INSERT INTO phones VALUES (12,'Galaxy S4 Protector', 'Sumsung', 2012,1.30, 's4-protector.gif',70,3);
+
+commit;
+
+create table orders(
+ORDERID number(3) default '' NOT NULL,
+USERNAME varchar2(15),
+DATEORDER DATE,
+ORDERTOTAL number(8,2),
+STATUS varchar2 (7),
+SHIPPING_FIRSTNAME varchar2(20),
+SHIPPING_LASTNAME varchar2(20),
+SHIPPING_UNITNO number(4),
+SHIPPING_STREET varchar2(30),
+SHIPPING_CITY varchar2(15),
+SHIPPING_POSTCODE number(5),
+SHIPPING_STATE varchar2(28),
+CARDTYPE varchar2(11),
+CARDNO varchar2(32),
+csc varchar2 (32),
+CardMonth number(2),
+CardYear number(2),
+Primary key (ORDERID),
+Foreign key (USERNAME) references users
+);
+
+
+INSERT INTO orders VALUES (2, 'linshan', to_date('27082013','DDMMYYYY'), 75.55, 'shipped', 'kaim', 'h',99, 'Watermelon', 'Free', 1111, 'Western Australia','','','','','');
+
+commit;
+
+
+create table orderSummary(
+ORDERID number(3),
+PHONEID number(3),
+Quantity number(2),
+Primary key (ORDERID, PHONEID),
+Foreign key (PHONEID) references phones,
+Foreign key (ORDERID) references orders
+);
+
+INSERT INTO orderSummary VALUES(1,1,2);
+INSERT INTO orderSummary VALUES(1,7,2);
+INSERT INTO orderSummary VALUES(2,4,1);
+
+commit;
+
+
+
+select * from phones;
+select * from orderSummary;
+select * from users;
+select * from orders;
+select * from category2;
+select * from contact;
